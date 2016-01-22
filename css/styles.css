@@ -2,10 +2,36 @@ h1 {
   font-weight: bold;
   text-align: center;
   font-family: "Goudy Old Style", serif;
+  font-size: 4em;
+  color: #ffffff; 
 }
 
-h2 {
+h3 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Calibri", sans-serif;
+  color: #ffffff;
 }
 
+body {
+  font-size: 100%
+  font-family: "Calibri", sans-serif;
+}
+
+.top {
+  background-color:  #007e80;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+p {
+  font-family: "Calibri", sans-serif;
+  font-size: 1.5em;
+}
+
+.posting {
+  margin-left: 100px;
+  margin-right: 100px;
+}
