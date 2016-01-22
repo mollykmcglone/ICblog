@@ -19,8 +19,8 @@ body {
 
 .top {
   background-color:  #007e80;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 10px;
@@ -32,6 +32,18 @@ p {
 }
 
 .posting {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.image {
+  margin-left: 50px;
+  margin-right: 25px;
+  max-width: 300px;
+  float: left;
+}
+
+.date {
+  font-style: italic;
+  font-weight: bold;
 }
