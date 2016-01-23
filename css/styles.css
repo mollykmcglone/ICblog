@@ -1,7 +1,5 @@
 .header {
-  padding-top:10px;
-  padding-bottom: 30px;
-  height: 150px;
+  padding: 10px;
   border-bottom: 1px solid #ccc;
   margin-left: 25%;
   margin-right: 25%;
@@ -11,9 +9,9 @@
 h1 {
   font-weight: bold;
   font-family: "Goudy Old Style", serif;
-  font-size: 4em;
-  color: #007e80;
+  font-size: 3em;
   text-align: center;
+  color: #007e80;
 }
 
 h2 {
