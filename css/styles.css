@@ -1,20 +1,30 @@
+.header {
+  padding: 10px;
+  height: 150px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: white;
+}
+
 h1 {
   font-weight: bold;
-  text-align: center;
   font-family: "Goudy Old Style", serif;
   font-size: 4em;
-  color: #ffffff; 
+  color: #007e80;
+  text-align: center;
 }
 
 h2 {
-  text-align: center;
   font-family: "Calibri", sans-serif;
-} 
- 
+  text-align: left;
+  color: black;
+}
+
 h3 {
   text-align: center;
   font-family: "Calibri", sans-serif;
-  color: #ffffff;
+  color: #007e80;
 }
 
 body {
@@ -22,45 +32,58 @@ body {
   font-family: "Calibri", sans-serif;
 }
 
-.top {
-  background-color:  #007e80;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px;
-}
-
 .posting {
-  margin-left: 300px;
-  margin-right: 400px;
+  margin-left: 250px;
+  margin-right: 250px;
   font-family: "Calibri", sans-serif;
   font-size: 1.25em;
-}
-
-.image {
-  margin-left: 50px;
-  margin-right: 25px;
-  width: 225px;
-  float: left;
 }
 
 .date {
+  text-align: right;
+  color: black;
   font-style: italic;
-  font-weight: bold;
+  font-size: 1em;
 }
 
-.sidebar {
-  width: 250px;
-  float: right;
+.sidebar1 {
+  width: 200px;
+  float: left;
   background-color: #e5ffff;
-  margin-right: 50px;
   margin-left: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
   font-family: "Calibri", sans-serif;
 }
 
-.about {
-  font-size: 1.25em;
+.sidebar2 {
+  width: 200px;
+  float: right;
+  background-color: #e5ffff;
+  margin-right: 25px;
+  margin-left: 50px;
+  font-family: "Calibri", sans-serif;
+}
+
+em {
+  font-weight: bold;
+}
+.clouseau {
+  width: 200px;
+}
+
+.sidebar1 p {
+  font-size: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar2 ul {
+  font-size: 1em;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size:.75m;
+  font-style: italic;
 }
