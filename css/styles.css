@@ -18,7 +18,8 @@ h1 {
 h2 {
   font-family: "Calibri", sans-serif;
   text-align: left;
-  color: black;
+  background-color: #007e80;
+  color: white;
 }
 
 h3 {
